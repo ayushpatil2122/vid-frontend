@@ -164,7 +164,7 @@ function NavbarPage() {
             <Route path="/gig/:gigId" element={<VideoEditingGig />} />
             <Route path='/jobs' element={<ClientJobs/>}></Route>
             <Route path="/jobs/:jobId/shortlist" element={<Shortlist />} />
-            <Route path="/freelancers/:freelancerId" element={<ProfilePage />} />
+            <Route path="/freelancer/:freelancerId" element={<ProfilePage  />} />
             <Route path="/shortlist/:jobId" element={<JobApplicants />} />
             
 
